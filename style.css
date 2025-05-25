@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    max-width: 130px;
+    max-height: fit-content;
+    margin-top: 15px;
+    margin-left: 220px;
+
+    
+}
+.navstuff{
+    display: flex;
+    list-style: none;
+    padding: 0;
+   margin: 0;
+   gap: 40px;
+   font-family:'Poppins', sans-serif; 
+   font-size: 15px;
+   
+   margin-top: 15px;
+   margin-right: 120px;
+   
+   
+
+}
+.navstuff a {
+  text-decoration: none; /* ✅ removes underline */
+  color: grey ;        /* or whatever color you want */
+  display: inline-block;  /* ✅ enables margin/padding */
+  
+    
+  margin-right: 15px;
+}
+.navbuttons a:hover {
+  color: #387ed1;
+}
+input:checked ~ .dropdown {
+  display: block;
+}
+
+.dropdown{
+    display: none;
+}
