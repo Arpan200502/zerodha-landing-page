@@ -6,7 +6,8 @@
 
 This is my clone of the Zerodha landing page, recreated from scratch using only **HTML** and **CSS**.
 
----
+---![Uploading image.png…]()
+
 
 ## What’s inside?
 
